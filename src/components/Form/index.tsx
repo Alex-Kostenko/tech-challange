@@ -141,7 +141,7 @@ const Form = () => {
             <input
               className="inputCheckBox"
               type="checkbox"
-              checked={check}
+              defaultChecked={check}
               id="one"
             />
             <label className="labelCheckBox" htmlFor="one">
